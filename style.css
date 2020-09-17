@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*css header section start*/
+.header{
+    width: 100%;
+    display: flow-root;
+}
+.navbar{
+    width: 100%;
+    float: left;
+    padding: 35px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 55px;
+}
+.menu ul li a{
+    color: #b4ad9e;
+    text-transform: uppercase;  
+}
+.menu ul li a:hover{
+    color: black;
+    /* text-decoration: underline red; */
+    border: solid 2px red;   
+}
+/*css header section end*/
+
+/*banner start*/
+.banner{
+    width: 100%;
+    display: flow-root;
+}
+.post-content{
+    padding: 60px;
+}
+.category{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-top: 32px;
+}
+.title{
+    color: #626262;
+    margin: 20px 0;
+}
+.description{
+    color: #626262;
+    margin-bottom:32px;
+}
+.comment{
+    text-transform: uppercase;
+    color: #b4ad9e;    
+}
+.comment input{
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 25px;
+    font-size: 17px;
+}
+/*banner end*/
+
+/*post gallery start*/
+.posts{
+    width: 100%;
+    display: flow-root;
+}
+.gallery{
+    padding: 60px;
+    margin-top: -53px;
+display: flow-root;
+}
+.post{
+    width: 100%;
+    float: left;
+}
+.left{
+    width: 48%;
+    float: left;
+}
+.right{
+    width: 48%;
+    float: right;
+}
+.post .category{
+    margin-top: 30px;
+}
+.post-2{
+    width: 100%;
+    float: left;
+    margin-top: 42px;
+}
+/*post gallery end*/
+
+/*subscription form start*/
+
+
+}
+.subscription h1{
+   
+    margin-bottom: 44px;
+
+}
+.subscription{
+    width: 100%;
+    display: flow-root;
+    background: #f0f0f0;
+    text-align: center;
+    padding: 52px 0;
+}
+form input{
+    padding: 15px 0;
+    width: 380px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    margin-top: 36px;
+}
+form input::placeholder{
+    font-size: 20px;
+}
+form{
+    position: relative;
+}
+form i{
+    position: absolute;
+    top: 50px;
+    right: 390px;
+    transform: rotate(45deg);
+}
+
+/*subscription form end*/
+
+.post-3{
+    width: 100%;
+    float: left;
+    margin-top: 42px;
+}
+.posts .btn{
+    text-align: center;
+ 
+}
+.btn button{
+    padding: 15px 30px;
+    background: transparent;
+    font-size: 20px;
+   
+}
+.btn button:hover{
+    transform: scale(.9);
+    background:#626262 ;
+}
+.footer{
+    width: 100%;
+    display: flow-root;
+    background: #f0f0f0;
+    padding: 47px 0;
+    margin-top: 55px;
+}
+.terms-icons{
+    width: 100%;
+    float: left;   
+}
+
+.terms{
+    width: 30%;
+    float: left;
+}
+.terms ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px; 
+  
+}
+.terms ul li a{
+    color: #626262 ;
+}
+.icon{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:30px;
+ ;
+}
+.icon ul li a i{
+    color: black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px; 
+    border-radius: 100%;
+    background:#626262 ;
+    text-align: center;
+}
+.icon ul li a i:hover{
+    background: #f0f0f0;
+    transform: scale(1.5);
+}
+
